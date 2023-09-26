@@ -26,3 +26,12 @@ Prima scriviamo nei commenti la logica in italiano e poi traduciamo in codice.
 console.log() è nostro amico.
 Quando un pezzo di codice funziona, chiediamoci se possiamo scomporlo in funzioni più piccole.
 ===
+1. Scrivi una funzione che prenda l'array dei post e crei dinamicamente gli elementi HTML per ciascun post.
+2. CreateElement per creare elementi HTML per l'intestazione, il testo, l'immagine e i Mi Piace.
+3. AppendChild per collegare questi elementi all'elemento del post principale.
+4. Aggiungi ciascun post all'elemento del container HTML.
+5. Funzione per gestire il click sul pulsante "Mi Piace".
+6. addEventListener per ascoltare i clic sui pulsanti "Mi Piace".
+7. Quando viene fatto clic su un pulsante "Mi Piace", incrementa il contatore dei "Mi Piace", cambia lo stile del pulsante per indicare che è stato attivato.
+8. ClassList.add per aggiungere una classe CSS al pulsante quando viene attivato.
+9. Funzione per salvare in un array gli id dei post ai quali abbiamo messo like
